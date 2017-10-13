@@ -10,11 +10,14 @@ public class Utils {
 
     public static String validateCard(final Card card) {
         if (!card.validateNumber()) {
-            return "The card number that you entered is invalid";
+            return "Le numéro de carte est invalide.";
+//            return "The card number that you entered is invalid";
         } else if (!card.validateExpiryDate()) {
-            return "The expiration date that you entered is invalid";
+            return "La date d'expiration est invalide.";
+//            return "The expiration date that you entered is invalid";
         } else if (!card.validateCVC()) {
-            return "The CVC code that you entered is invalid";
+            return "Le cryptogramme visuel est invalide.";
+//            return "The CVC code that you entered is invalid";
         }
         return null;
     }
