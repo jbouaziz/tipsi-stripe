@@ -12,7 +12,7 @@
     <item>USD</item>
   </string-array>
 
-  <string name="ExpirationDateHelp">Date d'expiration (MM/AA)</string>
+  <string name="ExpirationDateHelp">Date d\'expiration (MM/AA)</string>
   <string name="SecurityCodeHelp">Cryptogramme visuel (CVC)</string>
   <string name="ZipHelp">Code postal de facturation</string>
 </resources>
